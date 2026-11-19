@@ -1,0 +1,15 @@
+{
+  "Model": "SVM (RBF)",
+  "Accuracy_mean": 0.8225,
+  "Accuracy_std": 0.072,
+  "Precision_mean": 0.8338,
+  "Recall_mean": 0.7784,
+  "F1_mean": 0.7997,
+  "ROC_AUC_mean": 0.9022,
+  "Best_params": {
+    "kernel": "rbf",
+    "C": 10.0,
+    "gamma": 0.01
+  },
+  "Note": "Chon kernel RBF theo CV ROC-AUC. LINEAR: CV ROC-AUC=0.8998 (params={'C': 0.31622776601683794}). Test: Acc=0.8167, AUC=0.9308. y_score = decision_function (lop benh=1)."
+}

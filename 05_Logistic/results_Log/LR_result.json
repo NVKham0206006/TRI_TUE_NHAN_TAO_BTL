@@ -1,0 +1,14 @@
+{
+    "Model": "Logistic Regression",
+    "Accuracy_mean": 0.8349,
+    "Accuracy_std": 0.0796,
+    "Precision_mean": 0.8511,
+    "Recall_mean": 0.7874,
+    "F1_mean": 0.8132,
+    "ROC_AUC_mean": 0.9028,
+    "Best_params": {
+        "C": 0.3162,
+        "penalty": "l2"
+    },
+    "Note": "Logistic Regression (solver=liblinear); tune C va penalty theo ROC-AUC bang 5-Fold Stratified CV. Test (N=60): Acc=0.8167, Prec=0.8696, Rec=0.7143, F1=0.7843, AUC=0.9397. y_score = predict_proba (lop benh=1)."
+}

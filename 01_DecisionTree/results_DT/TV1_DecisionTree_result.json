@@ -1,0 +1,14 @@
+{
+    "Model": "Decision Tree",
+    "Accuracy_mean": 0.7804078014184397,
+    "Accuracy_std": 0.09885670058799406,
+    "Precision_mean": 0.7934814814814815,
+    "Recall_mean": 0.741991341991342,
+    "F1_mean": 0.757729856910602,
+    "ROC_AUC_mean": 0.8384239094239094,
+    "Best_params": {
+        "max_depth": 3,
+        "min_samples_leaf": 10
+    },
+    "Note": "Decision Tree; tuning max_depth và min_samples_leaf theo ROC-AUC bằng Stratified 5-Fold CV (random_state=42)."
+}

@@ -1,0 +1,15 @@
+{
+  "Model": "kNN",
+  "Accuracy_mean": 0.8226063829787235,
+  "Accuracy_std": 0.06701705491600782,
+  "Precision_mean": 0.843180410920349,
+  "Recall_mean": 0.751082251082251,
+  "F1_mean": 0.7896065640498302,
+  "ROC_AUC_mean": 0.8864119214119214,
+  "Best_params": {
+    "n_neighbors": 17,
+    "metric": "manhattan",
+    "weights": "uniform"
+  },
+  "Note": "Pipeline(StandardScaler -> KNN); grid k∈{1,3,...,31} × {euclidean, manhattan}, chọn theo ROC-AUC trên 5-Fold StratifiedKFold(rs=42). Không scaler: best ROC-AUC=0.7591 vs có scaler=0.8864."
+}

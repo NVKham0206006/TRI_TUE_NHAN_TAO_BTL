@@ -1,0 +1,17 @@
+{
+    "Model": "MLP (Neural Network)",
+    "Accuracy_mean": 0.8015,
+    "Accuracy_std": 0.0655,
+    "Precision_mean": 0.7939,
+    "Recall_mean": 0.7784,
+    "F1_mean": 0.7813,
+    "ROC_AUC_mean": 0.8728,
+    "Best_params": {
+        "hidden_layer_sizes": [
+            16
+        ],
+        "alpha": 0.1,
+        "activation": "tanh"
+    },
+    "Note": "1 lớp ẩn (16,) với L2 alpha=0.1 (tanh) đạt CV ROC-AUC cao nhất (0.8728), kiểm soát overfitting tốt hơn 2 lớp ẩn (64, 16) (CV ROC-AUC=0.8525); Test độc lập (N=60): Acc=0.8167, Precision=0.8148, Recall=0.7857, F1=0.8000, ROC-AUC=0.9487."
+}
