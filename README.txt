@@ -1,6 +1,6 @@
 (Guided for gg drive)
 
-B1: Giải nén BTL_46_Heart_Disease
+B1: Tải repo về, giải nén repo nếu nó ở dạng zip.
 B2: Đưa folder đã giải nén lên gg drive.
 
 
